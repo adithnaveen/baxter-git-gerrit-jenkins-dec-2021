@@ -1,4 +1,5 @@
 documents
+<<<<<<< HEAD
 /node_modules/
 **/classess/**
 
@@ -9,3 +10,5 @@ documents
 
 **/a.out/
 
+=======
+>>>>>>> f6f320195307b9d54a19fd09ce901542e2724fd6
