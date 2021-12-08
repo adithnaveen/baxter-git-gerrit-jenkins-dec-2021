@@ -8,4 +8,5 @@ documents
 *.class
 
 **/a.out/
+**/.DS_Store
 
