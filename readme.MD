@@ -1,3 +1,5 @@
+# Day 1 
+
 1. intial introduction sesison distributed repo 
 2. got started with github and git 
 3. do we have git bash upto commit 
@@ -95,5 +97,45 @@ DVS
 6. git push origin main 
 
 
+
+
+.gitignore 
+
+
+- Monlithic - Monorepo concept 
+- MicroService  - branching strategy 
+
+
+
+--- 
+- hey i'm unordered list 
+- again unordreed 
+
+1. ordered list 
+
+
+> i'm blockquote 
+
+> another blockquote 
+
+```class Hello {
+	public static void main(String args[]) {
+		System.out.println("Hello");
+	}
+}
+
+```
+
+--- 
+
+| Syntax    | Description | another col  |
+| --------- | ----------- | ------------ |
+| Header    | Title       | some content |
+| Paragraph | Text        | some content |
+
+
+
+- in java *.class 
+- in node js node_modules
 
 
