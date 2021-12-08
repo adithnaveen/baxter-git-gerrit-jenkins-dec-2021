@@ -55,8 +55,8 @@ Agenda - Day 2
 - https://github.com/rj94/GitTraining
 - https://github.com/bhadanirahul2000/Git-Practice-Dec2021.git
 - https://github.com/gulnaztaranum/baxter-git-gerrit-jenkins-dec-2021.git
-
-
+- https://github.com/swathibaxter
+- https://github.com/9763421694/roshanigithub.com.git
 
 
 
@@ -151,6 +151,57 @@ DVS
   - assets - Show 
   - sql - db 
 
+
+
+
+1. git clone repo 
+2. to goto mono-test folder and make any changes 
+3. add, commit, and push ******* dont create any branch ****** work on main branch 
+
+
+
+
+
+### Collaborative workflow 
+
+> Naveen's work 
+
+- git checkout master 
+- git fetch 
+- git merge origin/master
+- git checkout -b feedback-form
+- you make changes 
+- git add feedback.html 
+- git commit -m "added customer feedback form " -5 hrs 
+- git fetch 
+- git push -u origin feedback-form
+
+
+> Subhashini 
+
+- git checkout master 
+- git fetch 
+- git merge origin/master
+- git checkout -b feedback-form origin/feedback-form
+- git log --oneline 
+- git show 3cad752
+- your changes goes here 
+- git add feedback.html 
+- git commit -am "added captcha" - 6 hrs 
+- git fetch 
+- git push origin feedback-form
+
+
+> Naveen 
+
+- git fetch 
+- git log -p feedback-form..origin/feedback-form
+- git merge origin/feedback-form
+- git checkout master
+- git fetch 
+- git merge origin/master
+- git merge feedback-form
+- git push origin master
 
 
 
