@@ -1,1 +1,11 @@
 documents
+/node_modules/
+**/classess/**
+
+
+*.exe
+
+*.class
+
+**/a.out/
+

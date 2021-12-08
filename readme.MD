@@ -139,3 +139,19 @@ DVS
 - in node js node_modules
 
 
+---- 
+- MVC 
+  - Java Code 
+  - Servlets - Controller 
+  - JSP - View 
+  - JSTL - Tags 
+  - HTML - View 
+  - JS - Client Side 
+  - CSS - Style 
+  - assets - Show 
+  - sql - db 
+
+
+
+
+
