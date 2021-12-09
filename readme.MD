@@ -300,12 +300,6 @@ DVS
 6. git push origin main 
 
 
-References: 
-Git -> 
-https://docs.google.com/presentation/d/1IQCRPHEIX-qKo7QFxsD3V62yhyGA9_5YsYXFOiBpgkk/edit#slide=id.g4d6b1121f4_0_2661
-
-
-
 ---
 # Day 3
 ----
@@ -314,10 +308,61 @@ https://docs.google.com/presentation/d/1IQCRPHEIX-qKo7QFxsD3V62yhyGA9_5YsYXFOiBp
   - merge 
   - rebase 
 - sub-module 
+  - when vendor update, the company should get the updated code 
+    - 
+  - vendors will also have the branches, how to point that branch 
+    - 
 - Introduction Gerrit 
   - Workflows 
+  - Helps you to do Code Review 
+  - Access Control to the repository 
+    - Committer - Rahul, Rahul Kumar 
+    - Owner - Manjunath 
+    - Reviewer - Anshul, Basavesh 
+  - code browsing 
+  - Code searching 
+  - Project Wiki 
+  - Issue Tracking 
+  - Continues Builds 
+  - Code Analyzers - SonarQube 
+  - Style Checkers - Sonar Lint / ES Lint 
+  - github - git push origin main  or git push 
+  - gerrit - git push origin HEAD:refs/for/master
 - Jenkins 
   - CI/CD 
   - Simple Java Project 
+```
+pipeline {
+    agent any
+
+    stages {
+        stage('clean container') {
+            steps {
+                echo 'Cleaning docker containers'
+            }
+        }
+
+         stage('test') {
+            steps {
+                echo 'code test'
+            }
+        }  
+        
+         stage('build') {
+            steps {
+                echo 'building docker containers'
+            }
+        }
+    }
+}
+
+```
+
 - Create a tag 
 - alias 
+
+
+References: 
+Git -> 
+https://docs.google.com/presentation/d/1IQCRPHEIX-qKo7QFxsD3V62yhyGA9_5YsYXFOiBpgkk/edit#slide=id.g4d6b1121f4_0_2661
+
