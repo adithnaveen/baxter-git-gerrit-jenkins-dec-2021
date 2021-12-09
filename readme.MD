@@ -366,3 +366,13 @@ References:
 Git -> 
 https://docs.google.com/presentation/d/1IQCRPHEIX-qKo7QFxsD3V62yhyGA9_5YsYXFOiBpgkk/edit#slide=id.g4d6b1121f4_0_2661
 
+
+Gerrit -> 
+https://docs.google.com/presentation/d/1C73UgQdzZDw0gzpaEqIC6SPujZJhqamyqO1XOHjH-uk/edit#slide=id.g4d6c16487b_1_276
+
+Gerrit -> 
+https://www.gerritcodereview.com/
+
+https://www.vogella.com/tutorials/Gerrit/article.html
+
+
